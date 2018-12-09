@@ -16,3 +16,18 @@ body {
     max-width: 1140px;
     margin: 0 auto;
 }
+.box {
+    height: 500px;
+    margin-bottom: 10px;
+    width: 50%;
+}
+.box1 {
+    background-color: rebeccapurple;
+    float: left;
+    padding: 50px;
+    text-align: center;
+}
+.box2 {
+    background-color: gold;
+    float: left;
+}
