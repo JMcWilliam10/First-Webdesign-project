@@ -11,23 +11,47 @@ html {
 body {
     font-size: 1.6rem;
 }
+.nav{
 
+}
 .wrapper {
     max-width: 1140px;
     margin: 0 auto;
+    min-width: 600px;
 }
 .box {
-    height: 500px;
-    margin-bottom: 10px;
-    width: 50%;
+    
+    width: 33.3333%;
+    padding: 50px;
+    text-align: center;
+    
+
 }
 .box1 {
     background-color: rebeccapurple;
     float: left;
-    padding: 50px;
-    text-align: center;
+    min-width: 200px;
+}
+.box1:hover{
+	background-color: gold;
 }
 .box2 {
     background-color: gold;
     float: left;
+}
+.stop{
+	clear: both;
+	background: black;
+	min-height: 0vh;
+}
+.bigger{
+	background-color: white;
+	padding: 0vh;
+}
+.name{
+	color: white;
+	text-align: center;
+	font-size: 5rem;
+	text-shadow: ;
+	background-color: rebeccapurple;
 }
